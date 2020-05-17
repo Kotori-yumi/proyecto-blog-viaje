@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog del viajero</title>
+    <meta name="author" content=" Franco Olmi, Barbara Steimberg, Diego Galarce" />
+    <meta name="Description"
+        content="Es un blog para todo auqel viajero que quiere viajar y no sabe a que lugares puede ir a visitar" />
+    <meta name="keyword" content="Restaurantes, lugres para visitar en, comidas tipicas " />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/97731df87a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- inicio nav -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand mr-5" href="index.html"><img src="img/logo-marca.jpg" alt="Logo del Blog de viajero"
+                    width="50px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Fotografias</a>
+                    </li>
+                </ul>
+                <form class="my-2 my-lg-0">
+                    <button type="button" class="btn btn-outline-info mr-2" data-toggle="modal"
+                        data-target="#exampleModalLong">
+                        Suscripción
+                    </button>
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit" type="">
+                        <a href="login.html" class="text-decoration-none text-info">Inicio Sesión</a>
+                    </button>
+                </form>
+            </div>
+        </nav>
+        <nav aria-label="breadcrumb" class="bread">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contactos</li>
+            </ol>
+        </nav>
+    </header>
+    <!-- formulario de contacto -->
+    <article class="margennav">
+        <section class="container pt-4">
+            <article class="my-5">
+                <h2 class="display-4">Contactanos</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <iframe class="w-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.10492659158!2d-65.2093674854509!3d-26.83661479649732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1588379304803!5m2!1ses-419!2sar"
+                            width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h3 class="display-5">Envianos tu consulta</h3>
+                        <form class="shadow p-3 mb-5 bg-white rounded">
+                            <div class="form-group">
+                                <label>Nombre y Apellido</label>
+                                <input type="text" placeholder="Juan Perez" required class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" placeholder="Tucorreo@hotmail.com" required class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Consulta</label>
+                                <textarea rows="10" placeholder="Ingrese su consulta" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Enviar
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+    </article>
+    <footer class="bg-dark text-light py-4 text-center aling-content-end">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 text-center"> <img src="img/logo-marca.jpg"
+                        alt="Logo de la panaderia cuco" width="30%"></div>
+                <div class="col-sm-12 col-md-4 mt-2">Somos un grupo de amigos que nos juntamos en este blog para
+                    mostrarles nuestras experiencias en los lugares que visitamos y mostrarles a ustedes, lo que
+                    mas nos justo y poder recomendarles que pueden hacer <br> ¡¡ESPERO QUE LES GUSTE!!
+                </div>
+                <div class="col-sm-12 col-md-4 mt-2">
+                    <h5>Encontranos en: </h5>
+                    <br>
+                    <a href="https://es-la.facebook.com/" target="blanck"><i
+                            class="fab fa-facebook-f fa-2x text-info mr-3"></i></a>
+                    <a href="https://www.instagram.com/?hl=es-la" target="blanck"><i
+                            class="fab fa-instagram fa-2x text-info"></i></a>
+                    <br>
+                    <br>
+                    <a href="https://twitter.com/explore" target="blanck"> <i
+                            class="fab fa-twitter fa-2x text-info mr-3"></i></a>
+                    <a href="https://ar.pinterest.com/" target="blanck"><i
+                            class="fab fa-pinterest-p fa-2x text-info"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="col-sm-12  text-center">&copy; Todos los derechos reservados GROUP-ONE</div>
+        </div>
+    </footer>
+    <!--MODAL-->
+    <div class="modal fade justify-content-center" id="exampleModalLong" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h5 class="modal-title text-light " id="exampleModalLongTitle">
+                        Bienvenidos a Adventure
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Nombre</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="colFormLabel" placeholder="Juan" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Apellido</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="colFormLabel" placeholder="Perez" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="colFormLabel" class="col-sm-2 col-md-6 col-lg-12 col-form-label">Correo
+                                electronico</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="colFormLabel"
+                                    placeholder="Tucorreo@hotmail.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Contraseña</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="colFormLabel"
+                                    placeholder="Crea tu contraseña" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="colFormLabel" class="col-sm-2 col-md-6 col-lg-12 col-form-label">Repetir
+                                contraseña</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="colFormLabel" placeholder="Contraseña">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Listo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
